@@ -27,7 +27,7 @@
   }
 
   .logo {
-      font-size: 25px;
+      font-size: 30px;
       color: #574143;
       font-weight: 550;
       text-decoration: none;
@@ -37,7 +37,7 @@
 
   .navbar a {
       font-size: 10;
-      font-weight: 400;
+      font-weight: 600;
       margin-left: 15px;
       text-decoration: none;
       color: #574143;
@@ -55,7 +55,7 @@
       flex-direction: column-reverse;
       color: #574143;
       align-items: center;
-      height: 40vh;
+      height: 45vh;
       padding: 0 10%;
       background: #FFEACE;
   }
@@ -133,4 +133,9 @@ min-height: 100vh;
       padding: 15%;
       color: #FFEACE;
   }
+
+  #social-networks i:hover {
+    color: #A00039
+  }
+ 
   
