@@ -8,68 +8,109 @@
   }
 
   body {
-    background: #005B4C;
+      background: #005B4C;
   }
-/*Header*/
+
+  /*Header*/
   .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 20px 10%;
-    width: 100%;
-   
-    background:#FFEACE ;
-    display: flex;
-    z-index: 100;
-    align-items: center;
-    justify-content: space-between;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 20px 10%;
+      width: 100%;
+
+      background: #FFEACE;
+      display: flex;
+      z-index: 100;
+      align-items: center;
+      justify-content: space-between;
   }
-  
-  .logo {font-size: 25px;
-    color: #574143 ;
-    font-weight: 550;
-    text-decoration: none;
+
+  .logo {
+      font-size: 25px;
+      color: #574143;
+      font-weight: 550;
+      text-decoration: none;
   }
-/*Navbar*/
+
+  /*Navbar*/
 
   .navbar a {
-font-size: 10;
-font-weight: 400;
-margin-left: 15px;
-text-decoration: none;
-color: #574143 ;
+      font-size: 10;
+      font-weight: 400;
+      margin-left: 15px;
+      text-decoration: none;
+      color: #574143;
   }
 
   .navbar a:hover {
-    color: #A00039;
+      color: #A00039;
   }
- /*Main Content*/
-main {
-    flex: 1 0 auto;
-    margin-top: 47px;
-    display: flex;
-    flex-direction: column-reverse;
-    color: #574143;
-    align-items: center;
-    height: 40vh;
-    padding: 0 10%;
-    background: #FFEACE;
-  }
-   .home-content h1 {
-font-size: 40px;
-   }
 
-   .home-content p {
+  /*Main Content*/
+  main {
+      flex: 1 0 auto;
+      margin-top: 47px;
+      display: flex;
+      flex-direction: column-reverse;
+      color: #574143;
+      align-items: center;
+      height: 40vh;
+      padding: 0 10%;
+      background: #FFEACE;
+  }
+
+  .home-content h1 {
+      font-size: 40px;
+  }
+
+  .home-content p {
+      font-size: 20px;
+      margin-bottom: 40px;
+  }
+
+  /*About*/
+  .about {
+      width: 100%;
+      padding: 100px;
+  }
+
+  .about-main img {
+      height: auto;
+      width: 300px;
+      border-radius: 20px / 30px;
+  }
+  .about-text {
+    width: 600px;
+  }
+  .about-main {
+    width: 1000px;
+    max-width: 95%;
+    margin: 10 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+ 
+
+  .about-text h2 {
+    color: #FFEACE;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .about-text p {
+    color: #FFEACE;
     font-size: 20px;
     margin-bottom: 40px;
-   }
+    text-align: justify;
+   
+  }
 
-.about me-content h2 {
-  font-size: 40px;
-  background: #FFEACE;
-}
- 
-footer {
+  
+ /*Footer*/
+ footer {
     position: absolute;
     bottom: 0;
-}
+  }
