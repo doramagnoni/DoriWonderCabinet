@@ -51,6 +51,25 @@ main {
     flex-direction: column-reverse;
     color: #574143;
     align-items: center;
-    height: 30vh;
+    height: 40vh;
     padding: 0 10%;
+    background: #FFEACE;
   }
+   .home-content h1 {
+font-size: 40px;
+   }
+
+   .home-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+   }
+
+.about me-content h2 {
+  font-size: 40px;
+  background: #FFEACE;
+}
+ 
+footer {
+    position: absolute;
+    bottom: 0;
+}
