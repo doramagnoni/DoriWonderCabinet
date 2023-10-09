@@ -17,9 +17,23 @@
     left: 0;
     padding: 20px 10%;
     width: 100%;
-    background:#9DB625 ;
+    background:#F0F4CD ;
     display: flex;
     z-index: 100;
     align-items: center;
     justify-content: space-between;
+  }
+  
+  .logo {font-size: 25px;
+    color: #464838 ;
+    font-weight: 550;
+    text-decoration: none;
+  }
+
+  .navbar a {
+font-size: 10;
+font-weight: 400;
+margin-left: 15px;
+text-decoration: none;
+color: #464838 ;
   }
