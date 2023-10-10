@@ -39,12 +39,13 @@
       font-size: 10;
       font-weight: 600;
       margin-left: 15px;
-      text-decoration: none;
+     
       color: #574143;
+      transition: .3s ease;
   }
 
   .navbar a:hover {
-      color: #A00039;
+      color:  #D43C3C;
   }
 
   /*Main Content*/
@@ -93,7 +94,6 @@
     align-items: center;
     justify-content: space-around;
   }
-
  
   .about-text h2 {
     color: #FFEACE;
@@ -104,12 +104,13 @@
   .about-text p {
     color: #FFEACE;
     font-size: 20px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
     text-align: justify;
     letter-spacing: 1px;
     line-height: 28px;
   }
- 
+
+
   * Footer */
 
  body {
@@ -132,10 +133,14 @@ min-height: 100vh;
       font-size: 300%;
       padding: 15%;
       color: #FFEACE;
+      transition: .3s ease;
+  
   }
 
   #social-networks i:hover {
-    color: #A00039
+    color: #D43C3C;
+    
+    
   }
  
   
