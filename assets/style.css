@@ -147,8 +147,22 @@
     color: #D43C3C;
   }
 
+  
 
-  /* Footer */
+  /* Services */
+  .container {
+display: flex;
+justify-content: space-evenly;
+color: #FFEACE;
+  }
+
+  .container h3 {
+    font-size: 25px;
+  }
+
+  .container h3 > ul {
+    font-size: 15px;
+  }
 
   body {
     min-height: 100vh;
