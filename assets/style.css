@@ -37,7 +37,7 @@
   /*Navbar*/
 
   .navbar a {
-    font-size: 10;
+    font-size: 20px;
     font-weight: 600;
     margin-left: 15px;
     text-decoration: none;
@@ -67,20 +67,22 @@
   .home-content {
   
     font-size: 100%;
+    width: 1200px;
     position: relative;
     background-color: rgba(39, 94, 71, 0.747);
-    background-position: 0dvh;
     border-radius: 30px 40px;
     padding: 10px;
+    margin-bottom: 20px;
   }
 
   .home-content h1 {
     font-size: 40px;
+    margin-top: 40px;
   }
 
   .home-content p {
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   /*About*/
@@ -97,7 +99,7 @@
   }
 
   .about-text {
-    width: 600px;
+    width: 500px;
   }
 
   .about-main {
