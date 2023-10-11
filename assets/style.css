@@ -65,7 +65,7 @@
   }
 
   .home-content {
-  
+
     font-size: 100%;
     width: 1200px;
     position: relative;
@@ -90,12 +90,14 @@
   .about {
     width: 100%;
     padding: 100px;
+    padding-bottom: 30px;
   }
 
   .about-main img {
     height: auto;
     width: 300px;
     border-radius: 30px/ 30px;
+    padding-bottom: 30px;
   }
 
   .about-text {
@@ -129,7 +131,6 @@
   /* Button */
 
   .button {
-    justify-content: center;
     background: #FFEACE;
     padding: 10px 26px;
     border-radius: 40px;
@@ -141,28 +142,52 @@
     font-weight: 600;
     letter-spacing: 1px;
     transition: .3s ease;
+    
   }
 
   .button:hover {
     color: #D43C3C;
   }
 
-  
+
 
   /* Services */
+  
   .container {
-display: flex;
-justify-content: space-evenly;
-color: #FFEACE;
+    display: flex;
+    justify-content: space-evenly;
+    color: #574143;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #FFEACE;
+    border-radius: 30px/ 30px;
+
   }
 
   .container h3 {
     font-size: 25px;
+    position: relative;
   }
 
-  .container h3 > ul {
+  .container h3>ul {
     font-size: 15px;
+    padding-left: 25px;
+   padding-top: 10px;
   }
+
+.container a {
+  color: #574143;
+  text-decoration: none;
+  transition: .3s ease;
+}
+.container a:hover {
+    color: #D43C3C;
+  }
+
+
+    /* Footer */
 
   body {
     min-height: 100vh;
