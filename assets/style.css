@@ -4,31 +4,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "DM+Sans", sans-serif;
+    
   }
 
   body {
     background: #005B4C;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "DM+Sans", sans-serif;
   }
 
   /*Header*/
 
   .header {
     position: fixed;
-    top: 0;
-    left: 0;
     padding: 20px 10%;
     width: 100%;
-
     background: #FFEACE;
     display: flex;
-    z-index: 100;
+    z-index: 99;
     align-items: center;
     justify-content: space-between;
   }
 
   .logo {
-    font-size: 30px;
+    font-size: 20px;
     color: #574143;
     font-weight: 550;
     text-decoration: none;
@@ -43,6 +44,8 @@
     text-decoration: none;
     color: #574143;
     transition: .3s ease;
+    display: flex;
+    flex-direction: row;
   }
 
   .navbar a:hover {
@@ -142,7 +145,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     transition: .3s ease;
-    
+
   }
 
   .button:hover {
@@ -152,7 +155,7 @@
 
 
   /* Services */
-  
+
   .container {
     display: flex;
     justify-content: space-evenly;
@@ -174,24 +177,23 @@
   .container h3>ul {
     font-size: 15px;
     padding-left: 25px;
-   padding-top: 10px;
+    padding-top: 10px;
   }
 
-.container a {
-  color: #574143;
-  text-decoration: none;
-  transition: .3s ease;
-}
-.container a:hover {
+  .container a {
+    color: #574143;
+    text-decoration: none;
+    transition: .3s ease;
+  }
+
+  .container a:hover {
     color: #D43C3C;
   }
 
 
-    /* Footer */
+  /* Footer */
 
-  body {
-    min-height: 100vh;
-  }
+  
 
   .footer {
     height: 100px;
