@@ -28,6 +28,8 @@
     z-index: 99;
     align-items: baseline;
     justify-content: space-between;
+    text-decoration: none;
+  
   }
 
   .logo {
@@ -110,7 +112,7 @@
 
   }
 
-  .home-content h1 {
+  .home-content h2 {
     font-size: 25px;
     margin-top: 15px;
     text-align: center;
@@ -281,6 +283,7 @@
     .logo {
       font-size: 25px;
       font-weight: 550;
+     
     }
 
     .navbar a {
@@ -318,8 +321,8 @@
 
     }
 
-    .home-content h1 {
-      font-size: 40px;
+    .home-content h2 {
+      font-size: 30px;
       margin-top: 20px;
     }
 
@@ -351,7 +354,7 @@
     }
 
     .about-text h2 {
-      font-size: 40px;
+      font-size: 30px;
       margin-bottom: 20px;
     }
 
@@ -403,4 +406,9 @@
 
   }
 
-  @media screen and (min-width: 1200px) {}
+  @media screen and (min-width: 1200px) {
+    .home-content {
+
+    margin-top: 100px;
+    
+  }
