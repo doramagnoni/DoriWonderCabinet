@@ -29,7 +29,7 @@
     align-items: baseline;
     justify-content: space-between;
     text-decoration: none;
-  
+
   }
 
   .logo {
@@ -256,7 +256,7 @@
     nav {
       display: flex;
       justify-content: space-evenly;
-    
+
     }
 
     .nav-toggle-label {
@@ -283,7 +283,7 @@
     .logo {
       font-size: 25px;
       font-weight: 550;
-     
+
     }
 
     .navbar a {
@@ -409,6 +409,7 @@
   @media screen and (min-width: 1200px) {
     .home-content {
 
-    margin-top: 100px;
-    
+      margin-top: 100px;
+
+    }
   }
