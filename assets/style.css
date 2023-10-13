@@ -160,73 +160,64 @@
     letter-spacing: 1px;
     line-height: 28px;
     padding-left: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   /* Button */
 
   .button {
     background: #FFEACE;
-    padding: 10px 26px;
+    padding: 10px 10px;
     border-radius: 40px;
     box-shadow: 0 0 10px #FFEACE;
-    font-size: 15px;
+    font-size: 10px;
     color: #574143;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
     transition: .3s ease;
-    margin-left: 8rem;
-  
- 
-
+    margin-left: 11rem;
   }
 
   .button:hover {
     color: #D43C3C;
   }
 
-
   /* Services */
 
-  .container {
-    display: flex;
-    justify-content: space-evenly;
-    color: #574143;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  .services {
     background: #FFEACE;
-    border-radius: 10px/ 10px;
-
-  }
-
-  .container h3 {
-    font-size: 15px;
-    position: relative;
-  
-  }
-
-  .container h3>ul {
-    font-size: 12px;
-    padding-left: 15px;
-    padding-top: 10px;
-  }
-
-  .container a {
+    border-radius: 30px/30px;
     color: #574143;
-    text-decoration: none;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    align-items: baseline;
+    gap: 2rem;
     transition: .3s ease;
+
   }
 
-  .container a:hover {
+  .services h3:hover {
     color: #D43C3C;
   }
 
+  .services h3 {
+    font-size: 25px;
+    text-decoration: none;
+  }
+
+  .services ul {
+    font-size: 15px;
+    padding-left: 25px;
+    padding-top: 10px;
+  }
 
   /* Footer */
 
@@ -257,18 +248,13 @@
   }
 
 
-
-  /* Media Query: large or landscape phones (567px and up)*/
-  @media screen and (min-width: 567px) {}
-
   /* Media Query: tablets and larger (768 px and up)*/
   @media screen and (min-width: 768px) {
 
     nav {
       display: flex;
-      position: relative;
-      width: fit-content;
-      box-shadow: none;
+      justify-content: space-evenly;
+    
     }
 
     .nav-toggle-label {
@@ -289,6 +275,7 @@
       width: 100%;
       align-items: center;
       justify-content: space-between;
+      align-content: baseline;
     }
 
     .logo {
@@ -379,7 +366,7 @@
     }
 
 
-    .container {
+    .services {
       display: flex;
       justify-content: space-evenly;
       margin-top: 30px;
@@ -388,12 +375,7 @@
       padding-bottom: 30px;
     }
 
-    .container h3 {
-      font-size: 25px;
-      position: relative;
-    }
-
-    .container h3>ul {
+    .services ul {
       font-size: 15px;
       padding-left: 25px;
       padding-top: 10px;
