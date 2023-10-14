@@ -181,7 +181,6 @@
     align-items: baseline;
     gap: 2rem;
     transition: .3s ease;
-
   }
 
 
@@ -207,7 +206,7 @@
     color: #574143;
     font-size: 15px;
     border-radius: 30px 30px;
-   margin-top: 40px;
+    margin-top: 40px;
     padding: 10px;
     padding-top: 10px;
     padding-left: 20px;
@@ -267,38 +266,52 @@
     margin-top: 20px;
   }
 
-/* DIY */
-.diy {
-  width: 100%;
-  max-width: 95%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  color: #FFEACE;
-}
+  /* DIY */
+  .diy {
+    width: 100%;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFEACE;
+  }
 
+  .diy h2 {
+    width: 100%;
+    color: #FFEACE;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
 
-.diy h2 {
-  color: #FFEACE;
-  font-size: 20px;
-  margin-bottom: 20px;
-  padding-left: 20px;
-}
+  .video h3 {
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
 
-.diy p {
-  width: 100%;
-  color: #FFEACE;
-  font-size: 15px;
-  margin-bottom: 40px;
-  text-align: justify;
-  letter-spacing: 1px;
-  line-height: 28px;
-  padding-left: 20px;
-  margin-bottom: 30px;
-}
+  .video p {
+    width: 100%;
+    color: #FFEACE;
+    font-size: 15px;
+    margin-bottom: 40px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 28px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
 
-
+  .video iframe {
+    margin-left: 6px;
+  }
 
   /* Footer */
 
@@ -346,6 +359,43 @@
       display: none;
     }
 
+    /* DIY */
+
+.diy {
+  
+}
+
+    .diy h2 {
+      text-align: justify;
+      letter-spacing: 1px;
+      line-height: 28px;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+
+    .video h3 {
+      letter-spacing: 1px;
+      line-height: 28px;
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    .video p {
+      width: 100%;
+      color: #FFEACE;
+      font-size: 15px;
+      margin-bottom: 40px;
+      text-align: justify;
+      letter-spacing: 1px;
+      line-height: 28px;
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .video iframe {
+      width: 500px;
+      height: 281px;
+    }
   }
 
   /* Large devices (laptops and desktops, 992px and up) */
