@@ -6,8 +6,7 @@
 
 Concept: Dori's Wonder Cabinet is a comprehensive online platform for plant enthusiasts of all levels, from beginners to seasoned gardeners. The website provides valuable information and tools to help users select, care for, and appreciate their plants.
 
-This project is for educational purposes and can not be used as a template for a business use.
-Main aim is to build responsive website with HTML and CSS only.
+The main aim is to build responsive website with HTML and CSS only.
 
 
 ## [View life website in github pages](https://doramagnoni.github.io/DoriWonderCabinet/)
@@ -79,13 +78,6 @@ This website serves as a virtual cabinet of curiosities where I  showcase mycoll
 
 The website is designed to be easy and user-friendy on all type of devices. On desktop, tablet or mobile device there should be no difference. User will get some interaction from the interface as links and buttons will have a hover effects.
 
-## Wireframes
-
-I used website wireframe.cc to create a wireframes.
-
-![Wireframes](md_images/wireframes.png)
-
-## Surface
 
 ### Colors
 Main colours used in a project:
@@ -99,7 +91,7 @@ Main colours used in a project:
 
 ### Images
 
-* All images are made and belong to the owner of the webpage.
+* All images and videos are made and belong to the owner of the webpage.
 
 
 [Back to Table of contents](#table-of-contents)
@@ -287,7 +279,7 @@ ___
 
     * I found interesting ideas and inspiration in the YouTube tutorials of (https://www.youtube.com/@slayingthedragon) in particular on creating transitions for CSS and using Flexbox.
 
-
+    * For creating the textual content I used ChatGpt.
 
 
 
