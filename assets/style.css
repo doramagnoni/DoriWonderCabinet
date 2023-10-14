@@ -165,27 +165,6 @@
     margin-bottom: 30px;
   }
 
-  /* Button */
-
-  .button {
-    background: #FFEACE;
-    padding: 10px 10px;
-    border-radius: 40px;
-    box-shadow: 0 0 10px #FFEACE;
-    font-size: 10px;
-    color: #574143;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    transition: .3s ease;
-    margin-left: 7rem;
-  }
-
-  .button:hover {
-    color: #D43C3C;
-  }
-
   /* Services */
 
   .services {
@@ -195,7 +174,7 @@
     margin-top: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 70px;
+    padding-left: 50px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-evenly;
@@ -228,7 +207,7 @@
     color: #574143;
     font-size: 15px;
     border-radius: 30px 30px;
-    margin: 20px 20 px;
+   margin-top: 40px;
     padding: 10px;
     padding-top: 10px;
     padding-left: 20px;
@@ -287,6 +266,37 @@
     font-size: 15px;
     margin-top: 20px;
   }
+
+/* DIY */
+.diy {
+  width: 100%;
+  max-width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #FFEACE;
+}
+
+
+.diy h2 {
+  color: #FFEACE;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.diy p {
+  width: 100%;
+  color: #FFEACE;
+  font-size: 15px;
+  margin-bottom: 40px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 28px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
 
 
 
