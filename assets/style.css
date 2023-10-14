@@ -97,7 +97,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 10px;
-    background: url(../assets/images/E54975E2-EFDE-442C-B774-74611381C8B5.JPG) no-repeat center/cover;
+    background: url(../assets/images/E54975E2-EFDE-442C-B774-74611381C8B5.JPG) no-repeat center center/cover;
   }
 
   .home-content {
@@ -179,7 +179,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     transition: .3s ease;
-    margin-left: 5rem;
+    margin-left: 7rem;
   }
 
   .button:hover {
@@ -204,15 +204,15 @@
     transition: .3s ease;
 
   }
-  
-  
+
+
   .services a:hover {
     color: #D43C3C;
   }
 
   .services h3 {
     font-size: 25px;
-    
+
   }
 
   .services ul {
@@ -221,11 +221,80 @@
     padding-top: 10px;
   }
 
+  /* Help Page */
+
+  #help {
+    background: #FFEACE;
+    color: #574143;
+    font-size: 15px;
+    border-radius: 30px 30px;
+    margin: 20px 20 px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0 10px #FFEACE;
+  }
+
+  .container {
+    background: #FFEACE;
+    font-size: 15px;
+    border-radius: 30px 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px #FFEACE;
+    margin-bottom: 20px;
+  }
+
+
+  .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    align-items: baseline;
+    gap: 1rem;
+  }
+
+  label {
+    color: #574143;
+    font-size: 15px;
+  }
+
+  textarea:focus,
+  input:focus {
+    outline: none;
+    border-color: #D43C3C;
+  }
+
+  textarea,
+  input {
+    width: 100%;
+    font-weight: 400;
+    padding: 8px 10px;
+    margin-top: 5px;
+  }
+
+  button {
+    border: #D43C3C;
+    padding: 10px 20px;
+    background: rgba(39, 94, 71, 0.700);
+    border-radius: 30px 30px;
+    color: #FFEACE;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+
+
   /* Footer */
 
-
-  .footer {
+  footer {
     height: 100px;
+    z-index: 100;
   }
 
   #social-networks {
@@ -385,9 +454,9 @@
     }
 
     .footer {
-     height: fit-content;
+      height: fit-content;
     }
-   
+
 
     #social-networks {
 
@@ -416,7 +485,7 @@
     #social-networks {
 
       padding: 10px 0;
-     
+
     }
 
     #social-networks i {
