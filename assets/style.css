@@ -16,6 +16,8 @@
     background: #005B4C;
     min-height: 100vh;
     font-family: "DM+Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
 
   }
 
@@ -95,6 +97,7 @@
   main {
 
     margin-top: 65px;
+    flex: 1 0 auto;
     color: #FFEACE;
     display: flex;
     flex-direction: column;
@@ -301,7 +304,7 @@
     padding-left: 20px;
     margin-bottom: 30px;
   }
- 
+
 
   /* Chronicles */
 
@@ -325,10 +328,10 @@
 
   .chronicles img {
 
-    padding-top: 20px; 
+    padding-top: 20px;
     width: 200px;
-    padding-left: 90px;
-    
+    padding-left: 60px;
+
   }
 
   /* Plant Index */
@@ -346,15 +349,16 @@
     padding-right: 10px;
     box-shadow: 0 0 10px #FFEACE;
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+  }
 
-    .plant-index img {
-      padding-top: 20px; 
-      padding-bottom: 20px;
-      width: 200px;
-      padding-left: 40px;
+  .plant-index img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    padding-left: 40px;
 
-    }
+  }
 
   /* Footer */
 
@@ -430,59 +434,59 @@
     }
 
 
-      .diy {
-        text-align: justify;
-        letter-spacing: 1px;
-        line-height: 28px;
-        padding-left: 20px;
-        margin-bottom: 30px;
-      }
-
-   
-
-      section.diy p {
-        font-size: 20px;
-      }
-
-      section.diy img {
-
-      }
+    .diy {
+      text-align: justify;
+      letter-spacing: 1px;
+      line-height: 28px;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
 
 
-      /* Chronicles */
 
-      .chronicles {
-        
-        font-size: 20px;
-        border-radius: 30px 30px;
-        margin-top: 40px;
-        padding: 10px;
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        display: flex;
-      }
-      
+    section.diy p {
+      font-size: 20px;
+    }
+
+    section.diy img {}
+
+
+    /* Chronicles */
+
+    .chronicles {
+
+      font-size: 20px;
+      border-radius: 30px 30px;
+      margin-top: 40px;
+      padding: 10px;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      display: flex;
+    }
+
 
     .chronicles img {
       width: 500px;
       border-radius: 30px/ 30px;
       padding-top: 20px;
       padding-bottom: 40px;
-      
+
     }
- /* Plant Index */
- .plant-index {
-  display: flex;
- }
+
+    /* Plant Index */
+    .plant-index {
+      display: flex;
+    }
 
     .plant-index img {
-      padding-top: 20px; 
+      padding-top: 20px;
       padding-bottom: 20px;
       width: 500px;
       padding-left: 40px;
 
     }
+
     .footer {
       height: fit-content;
     }
