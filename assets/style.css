@@ -177,11 +177,12 @@
     padding-bottom: 30px;
     padding-left: 30px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-content: space-evenly;
     align-items: baseline;
     gap: 2rem;
     transition: .3s ease;
+
   }
 
 
@@ -194,10 +195,11 @@
 
   }
 
-  .services p {
+  .services ul {
     font-size: 15px;
     padding-left: 25px;
     padding-top: 10px;
+
   }
 
   /* Help Page */
@@ -287,18 +289,7 @@
     box-shadow: 0 0 10px #FFEACE;
   }
 
-
-  section.diy .video h3 {
-    color: #574143;
-    letter-spacing: 1px;
-    line-height: 28px;
-    padding-top: 40px;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    font-size: 15px;
-  }
-
-  section.diy .video p {
+  section.diy p {
     color: #574143;
     width: 100%;
     color: #574143;
@@ -310,10 +301,7 @@
     padding-left: 20px;
     margin-bottom: 30px;
   }
-
-  .video iframe {
-    margin-left: 6px;
-  }
+ 
 
   /* Chronicles */
 
@@ -339,8 +327,8 @@
 
     padding-top: 20px; 
     width: 200px;
-    padding-left: 50px;
-  
+    padding-left: 90px;
+    
   }
 
   /* Plant Index */
@@ -450,18 +438,16 @@
         margin-bottom: 30px;
       }
 
-      section.diy .video h3 {
+   
+
+      section.diy p {
         font-size: 20px;
       }
 
-      section.diy .video p {
-        font-size: 20px;
+      section.diy img {
+
       }
 
-      .video iframe {
-        width: 500px;
-        height: 281px;
-      }
 
       /* Chronicles */
 

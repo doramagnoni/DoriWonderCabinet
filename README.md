@@ -98,7 +98,7 @@ ___
 
 The website consists of 5 pages,  accessible from a navigation menu.
 
-One is a 404 error page and one is a submission confirmation page for a form.
+One of the pages is still under construction.
 
 The website has below features:
 
@@ -112,7 +112,7 @@ The website has below features:
         * Home
         * Chronicles
         * Plant Index
-        * DIY Projects
+        * DIY Projects (under construction)
         * Help my Plant
 
 
