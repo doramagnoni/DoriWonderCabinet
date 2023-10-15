@@ -206,6 +206,8 @@
     background: #FFEACE;
     color: #574143;
     font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 28px;
     border-radius: 30px 30px;
     margin-top: 40px;
     padding: 10px;
@@ -218,6 +220,8 @@
   .container {
     background: #FFEACE;
     font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 28px;
     border-radius: 30px 30px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -317,6 +321,8 @@
     background: #FFEACE;
     color: #574143;
     font-size: 15px;
+    line-height: 28px;
+    text-align: justify;
     border-radius: 30px 30px;
     margin-top: 40px;
     padding: 10px;
@@ -331,7 +337,6 @@
 
   .chronicles img {
 
-    border-radius: 30px/ 30px;
     padding-top: 20px; 
     width: 200px;
     padding-left: 50px;
@@ -343,6 +348,8 @@
     background: #FFEACE;
     color: #574143;
     font-size: 15px;
+    line-height: 28px;
+    text-align: justify;
     border-radius: 30px 30px;
     margin-top: 40px;
     padding: 10px;
@@ -352,6 +359,14 @@
     box-shadow: 0 0 10px #FFEACE;
     display: flex;
     flex-direction: column;}
+
+    .plant-index img {
+      padding-top: 20px; 
+      padding-bottom: 20px;
+      width: 200px;
+      padding-left: 40px;
+
+    }
 
   /* Footer */
 
@@ -469,6 +484,18 @@
       padding-top: 20px;
       padding-bottom: 40px;
       
+    }
+ /* Plant Index */
+ .plant-index {
+  display: flex;
+ }
+
+    .plant-index img {
+      padding-top: 20px; 
+      padding-bottom: 20px;
+      width: 500px;
+      padding-left: 40px;
+
     }
     .footer {
       height: fit-content;
