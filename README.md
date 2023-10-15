@@ -1,10 +1,11 @@
 # Dori's Wonder Cabinet - a Portfolio website
+<img width="1429" alt="Screenshot 2023-10-15 at 12 25 17" src="https://github.com/doramagnoni/DoriWonderCabinet/assets/137621206/f2dbc04b-0b90-4207-bd8a-0914a51ff938">
 
 ## User-Centric Frontend Development Milestone Project.
 
 Concept: Dori's Wonder Cabinet is a comprehensive online platform for plant enthusiasts of all levels, from beginners to seasoned gardeners. The website provides valuable information and tools to help users select, care for, and appreciate their plants.
 
-The main aim is to build responsive website with HTML and CSS only.
+The main aim is to build a responsive website with HTML and CSS only.
 
 
 ## [View life website in github pages](https://doramagnoni.github.io/DoriWonderCabinet/)
@@ -38,29 +39,29 @@ The main aim is to build responsive website with HTML and CSS only.
 
 # UX
 
-## Website owner business goals
+## Website owner's business goals
 
-This website serves as a virtual cabinet of curiosities where I  showcase mycollection of unique and unusual plants. Each plant will be presented in its own dedicated section with detailed information about its care, origins, and any fascinating or quirky facts associated with it.
+This website serves as a virtual cabinet of curiosities where I  showcase my collection of unique and unusual plants. Each plant will be presented in its own dedicated section with detailed information about its care, origins, and any fascinating or quirky facts associated with it.
 
 ## User goals
 
 ### New user goals:
-- user is able to find information regarding plant care and tips how to keep plants happy.
-- user can find inspiration for home decor.
-- thhe user can follow comprehensive and easy to folloow tutorials. 
+- The user is able to find information regarding plant care and tips on how to keep plants happy.
+- The user can find inspiration for home decor.
+- Rhe user can follow comprehensive and easy-to-follow tutorials. 
 
 
 ### Returning user goals:
-- user can learn more about the history of the Cabinet of curiosities.
-- user can send a message to the website's owner using a contact form in order to get help with plant care or exchange ideas on dispaying cabinets of curiosities and home decor.
+- Users can learn more about the history of the Cabinet of Curiosities.
+- Users can send a message to the website's owner using a contact form in order to get help with plant care or exchange ideas on displaying cabinets of curiosities and home decor.
 
 ## User stories
 
 ### As a business owner:
 * I would like to present myself and my website clearly to potential visitors.
-* I want the visitors of my website to find interesting and well presented information on plant care and tips on identifying different factors that can potentially harm their plants.
+* I want the visitors to my website to find interesting and well-presented information on plant care and tips on identifying different factors that can potentially harm their plants.
 * I want the visitors of my webpage to be able to learn how to use my website intuitively and easily.
-* I would like to build and maintain relationship with potential and current visitors.
+* I would like to build and maintain relationships with potential and current visitors.
 
 ### As a new customer:
 * I wish to find information about plants and care tips.
@@ -100,15 +101,15 @@ The website consists of 5 pages,  accessible from a navigation menu.
 
 One of the pages is still under construction.
 
-The website has below features:
+The website has the following features:
 
 ## Navigation bar
 
-* #### Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices by a change into a burger menu.
+* #### The navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices with a change into the burger menu.
 * Navigation scheme:
 
-    * On left side there is a logo. It can be used as navigation link to the main page.
-    * On right side there are four links or burger menu. It contains:
+    * On the left side there is a logo. It can be used as a navigation link to the main page.
+    * On the right side there are four links or a burger menu. It contains:
         * Home
         * Chronicles
         * Plant Index
@@ -118,24 +119,24 @@ The website has below features:
 
 ## Footer
 
-* Footer is consistent on all pages and it provides with social links.
+* Footer is consistent on all pages and it provides social links.
 Each link will open in a separate tab in a browser.
 
 ## Home
 
 * ### Introduction section
 
-    * It includes a brief information on the webpage main goals.
+    * It includes brief information on the webpage's main goals.
 
 * ### Picture of the author
 
 * ### About me
 
-* A consice information about the author of the webpage.
+* A concise information about the author of the webpage.
 
 ## Chronicles
 
-* Information on the history of the cabinet of curiosities and their botanical implementation. 
+* Information on the history of the cabinet of curiosities and its botanical implementation. 
 
 ## Plant index
 
@@ -152,20 +153,20 @@ ___
 # Technologies used
 
 ### HTML5
-* As a structure language.
+* As a structured language.
 
 ### CSS
 * As a style language.
 
 
 ### Font Awesome
-* As an icon library for a social links.
+* As an icon library for social links.
 
 ### Google fonts
 * As a font resource.
 
 ### GitHub
-* As a software hosting platform to keep project in a remote location.
+* As a software hosting platform to keep projects in a remote location.
 
 ### Git
 * As a version-control system tracking.
@@ -283,6 +284,15 @@ ___
 ___
 
 # Screenshots
+<img width="1438" alt="Screenshot 2023-10-15 at 12 26 03" src="https://github.com/doramagnoni/DoriWonderCabinet/assets/137621206/9255bacd-7459-42e5-a3c7-0d35788d7f36">
+
+
+![Screenshot 2023-10-15 at 12 24 35](https://github.com/doramagnoni/DoriWonderCabinet/assets/137621206/0c7f68ac-5d04-4b0a-8c08-0c9fce779bdb)
+
+<img width="450" alt="Screenshot 2023-10-15 at 12 27 11" src="https://github.com/doramagnoni/DoriWonderCabinet/assets/137621206/1e484e31-9532-43ce-9d95-d50d2cb46471">
+
+
+
 
 ## Project screenshots
 
