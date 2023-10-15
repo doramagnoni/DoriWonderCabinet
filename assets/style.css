@@ -56,7 +56,7 @@
     align-items: baseline;
     flex-direction: column;
     transition: .3s ease;
-    
+
   }
 
   .navbar a:hover {
@@ -106,7 +106,6 @@
 
     font-size: 100%;
     font-weight: 600;
-    width: 100%;
     background-color: rgba(39, 94, 71, 0.747);
     border-radius: 30px 30px;
     padding: 10px;
@@ -176,7 +175,7 @@
     margin-top: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 50px;
+    padding-left: 30px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-evenly;
@@ -284,7 +283,7 @@
     box-shadow: 0 0 10px #FFEACE;
   }
 
-  
+
   section.diy .video h3 {
     color: #574143;
     letter-spacing: 1px;
@@ -311,32 +310,35 @@
   .video iframe {
     margin-left: 6px;
   }
-/* Chronicles */
 
-.chronicles {
-  background: #FFEACE;
-  color: #574143;
-  font-size: 15px;
-  text-align: justify;
-  border-radius: 30px 30px;
-  margin-top: 40px;
-  padding: 10px;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  box-shadow: 0 0 10px #FFEACE;
-  display: flex;
-  flex-direction: column;
+  /* Chronicles */
 
-}
-.chronicles img {
- 
- 
-  border-radius: 30px/ 30px;
-  padding-top: 20px;
-  padding-right: 80px;
- 
-}
+  .chronicles {
+    background: #FFEACE;
+    color: #574143;
+    font-size: 15px;
+    border-radius: 30px 30px;
+    margin-top: 40px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px #FFEACE;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .chronicles img {
+
+    border-radius: 30px/ 30px;
+    padding-top: 20px; 
+    width: 200px;
+    padding-left: 50px;
+   
+
+  }
+
   /* Footer */
 
   footer {
@@ -383,37 +385,50 @@
       display: none;
     }
 
-    /* DIY */
+    main {
 
-
-    .diy {
-      text-align: justify;
-      letter-spacing: 1px;
-      line-height: 28px;
-      padding-left: 20px;
-      margin-bottom: 30px;
-    }
-    section.diy .video h3 {
-      font-size: 20px;
+      margin-top: 20px;
+      display: flex;
+      padding-bottom: 10px;
     }
 
-    section.diy .video p {
-      font-size: 20px;
+    .about-main {
+      width: 100%;
+      max-width: 95%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+      .diy {
+        text-align: justify;
+        letter-spacing: 1px;
+        line-height: 28px;
+        padding-left: 20px;
+        margin-bottom: 30px;
+      }
+
+      section.diy .video h3 {
+        font-size: 20px;
+      }
+
+      section.diy .video p {
+        font-size: 20px;
+      }
+
+      .video iframe {
+        width: 500px;
+        height: 281px;
+      }
+
+      /* Chronicles */
+
+      #history {
+        display: flex;
+
+      }
+
     }
-    
-    .video iframe {
-      width: 500px;
-      height: 281px;
-    }
-
-    /* Chronicles */
-
-   #history {
-    display: flex;
-    
-   }
-
-   }
 
     .chronicles img {
       height: auto;
@@ -422,9 +437,9 @@
       padding-top: 5px;
       padding-bottom: 20px;
       padding-left: 30px;
-  
 
-}
+    }
+  }
 
 
   /* Large devices (laptops and desktops, 992px and up) */
