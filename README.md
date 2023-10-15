@@ -2,8 +2,6 @@
 
 ## User-Centric Frontend Development Milestone Project.
 
-![Mockup](md_images/mockup.png)
-
 Concept: Dori's Wonder Cabinet is a comprehensive online platform for plant enthusiasts of all levels, from beginners to seasoned gardeners. The website provides valuable information and tools to help users select, care for, and appreciate their plants.
 
 The main aim is to build responsive website with HTML and CSS only.
@@ -227,9 +225,7 @@ ___
 ---
 ## Issues found during site development
 
-
-
-
+While toggling the index.html the the main section leaks out while enlarging to fit diffrent sizes. 
 
 ## Performance testing
 
