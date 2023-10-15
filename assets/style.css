@@ -177,7 +177,7 @@
     padding-bottom: 30px;
     padding-left: 30px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-content: space-evenly;
     align-items: baseline;
     gap: 2rem;
@@ -194,7 +194,7 @@
 
   }
 
-  .services ul {
+  .services p {
     font-size: 15px;
     padding-left: 25px;
     padding-top: 10px;
